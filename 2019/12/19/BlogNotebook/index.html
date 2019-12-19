@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Hello World | Hexo</title>
+  <title>BlogNotebook | Hexo</title>
   <meta name="keywords" content="">
-  <meta name="description" content="Hello World | Hexo">
+  <meta name="description" content="BlogNotebook | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="喜欢写Blog的人，会经历三个阶段  第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。  第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。  第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。       win10+hexo+github搭建个人博客 参考：  https:&#x2F;&#x2F;hexo.io&#x2F;，博客用于记录自己的学习">
 <meta property="og:type" content="article">
@@ -288,9 +288,9 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-BlogNotebook" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">Hello World</h1>
+        <h1 class="article-title">BlogNotebook</h1>
     
     <div class="article-meta">
         
@@ -300,12 +300,12 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-12-19 14:24:56'>2019-12-19 14:24</time>
+        创建时间:<time class="date" title='更新时间: 2019-12-19 19:25:43'>2019-12-19 19:45</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:75</span>
+        <span>字数:2.5k</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -324,7 +324,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#win10-hexo-github搭建个人博客"><span class="toc-text">win10+hexo+github搭建个人博客</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo简介"><span class="toc-text">Hexo简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装git-和-node-js"><span class="toc-text">安装git 和 node.js</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装git"><span class="toc-text">安装git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装node-js"><span class="toc-text">安装node.js</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#github的注册与配置"><span class="toc-text">github的注册与配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#部署Hexo初始化博客"><span class="toc-text">部署Hexo初始化博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#换皮肤"><span class="toc-text">换皮肤</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何写文章"><span class="toc-text">如何写文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#发布到Githup"><span class="toc-text">发布到Githup</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -340,15 +340,253 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <blockquote>
+<p>喜欢写Blog的人，会经历三个阶段</p>
+<blockquote>
+<p>第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。</p>
+<blockquote>
+<p>第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。</p>
+<blockquote>
+<p>第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。  </p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="win10-hexo-github搭建个人博客"><a href="#win10-hexo-github搭建个人博客" class="headerlink" title="win10+hexo+github搭建个人博客"></a>win10+hexo+github搭建个人博客</h1><blockquote>
+<p>参考：</p>
+<ol>
+<li><a href="https://hexo.io/，博客用于记录自己的学习工作历程" target="_blank" rel="noopener">https://hexo.io/，博客用于记录自己的学习工作历程</a></li>
+<li><a href="http://www.suoniao.com/article/13253" target="_blank" rel="noopener">win10+hexo+github搭建个人博客</a></li>
+<li><a href="https://blog.csdn.net/erchowyo/article/details/54407601" target="_blank" rel="noopener">Win10 搭建Hexo博客完全教程 - erchowyo的专栏</a></li>
+<li><a href="https://yelog.org/2017/03/17/windows-hexo/" target="_blank" rel="noopener">windows环境下使用hexo搭建blog平台 | 叶落阁</a></li>
+<li><a href="https://hexo.io/themes/#clean" target="_blank" rel="noopener">Themes | Hexo</a></li>
+</ol>
+</blockquote>
+<h2 id="Hexo简介"><a href="#Hexo简介" class="headerlink" title="Hexo简介"></a>Hexo简介</h2><p>Hexo的作者是<a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">tommy351</a>，Hexo是一个简单、快速、强大的博客发布工具，支持Markdown格式。hexo的主题列表 Hexo Themes。</p>
+<h2 id="安装git-和-node-js"><a href="#安装git-和-node-js" class="headerlink" title="安装git 和 node.js"></a>安装git 和 node.js</h2><blockquote>
+<p>win10+Node.js+git+github</p>
+<ul>
+<li>Node.js下载地址：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></li>
+<li>Git下载地址：<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a></li>
+<li>Github 地址：<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a><br>安装node.js 和 git 步骤省略，按默认傻瓜式安装即可</li>
+</ul>
+</blockquote>
+<h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p>1).下载：从官网下载windows版本的git,地址在下方。<br><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">https://git-scm.com/download/win</a><br>2).安装：双击安装，一直点击下一步即可</p>
+<h3 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h3><p>1).下载：从官网下载windows版本的node.js安装包（.msi后缀），地址下方<br><a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/</a><br>2).安装：双击安装，一直点击下一步即可</p>
+<h2 id="github的注册与配置"><a href="#github的注册与配置" class="headerlink" title="github的注册与配置"></a>github的注册与配置</h2><blockquote>
+<p>参考workspace/ubuntu1804_configure.md at master · ld269440877/workspace<br><a href="https://github.com/ld269440877/workspace/blob/master/ubuntu1804_configure/ubuntu1804_configure.md" target="_blank" rel="noopener">https://github.com/ld269440877/workspace/blob/master/ubuntu1804_configure/ubuntu1804_configure.md</a><br>Anaconda+vscode</p>
+<ul>
+<li>git配置</li>
+<li>Git使用</li>
+<li>GitHub使用</li>
+</ul>
+</blockquote>
+<ol>
+<li>注册github账号并创建一个以 <font color=red>github昵称</font>.github.io 命名的仓库<br>ld269440877/ld269440877.github.io<br><a href="https://github.com/ld269440877/" target="_blank" rel="noopener">https://github.com/ld269440877/</a><font color=red>ld269440877</font>.github.io<br><img src="%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%BB%A5github%E6%98%B5%E7%A7%B0.github.io%E5%91%BD%E5%90%8D%E7%9A%84%E4%BB%93%E5%BA%93.png" alt=""><blockquote>
+<p>根据图中，注册一个github账号，昵称自定义，然后创建一个新项目，名字为：github昵称.github.io<br>参考教程的github昵称是shaonbean，我的github昵称是ld269440877  </p>
+</blockquote>
+</li>
+<li>项目创建完成之后，本地生成ssh 私钥和公钥，用于连接github认证，使用上面下载的git，打开git bash<br><img src="gitbash%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%88%90ssh%E7%A7%81%E9%92%A5%E5%92%8C%E5%85%AC%E9%92%A5.png" alt=""></li>
+</ol>
+<pre><code class="bash">ssh-keygen -t rsa -C &quot;github注册邮箱（自定义）&quot; -f .ssh/shaonbean
+# -f 输出以昵称命名的公钥和私钥，方便记忆</code></pre>
+<ol start="3">
+<li><p>公钥生成之后加到github上，方便后面的使用，用户本地和github进行ssh通信<br>公钥在.ssh文件夹下的id_rsa.pub文件中<br><img src="github-%E6%9C%AC%E5%9C%B0%E5%85%AC%E9%92%A5%E7%94%9F%E6%88%90%E4%B9%8B%E5%90%8E%E5%8A%A0%E5%88%B0github%E4%B8%8A.png" alt=""></p>
+</li>
+<li><p>git bash将本地文件与github远程仓库建立关联</p>
+<pre><code class="bash">Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users
+$ git clone git@github.com:ld269440877/ld269440877.github.io.git
+</code></pre>
+</li>
+</ol>
+<p>Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users<br>$ cd ld269440877.github.io/</p>
+<p>Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io (master)<br>$ pwd<br>/c/Users/ld269440877.github.io</p>
+<p>Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io (master)<br>$ mkdir HexoBlog</p>
+<p>Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io (master)<br>$ cd HexoBlog/</p>
+<p>Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io (master)<br>$ ls</p>
+<pre><code>&gt; 注意：初始化blog前文件夹HexoBlog必须是空的
+
+## 安装配置hexo
+&gt; 注：hexo安装前提需安装node.js 和git
+hexo官网：https://hexo.io/
+hexo官方文档：https://hexo.io/docs/  
+### 安装Node
+到Node.js官网下载相应平台的最新版本，安装即可，不需要配置环境变量
+### 安装Hexo
+- 打开Git Bash工具（前提确保Node.js已经安装），在打开的命令窗内输入下面的命令进行安装
+```bash
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io (master)
+$ cd HexoBlog/
+
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io (master)
+$ npm install hexo-cli -g</code></pre><ul>
+<li>安装过后，输入 hexo -v，出现下面信息，则表示安装成功<pre><code class="bash">Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io (master)
+$ hexo -v
+hexo-cli: 3.1.0
+os: Windows_NT 10.0.18363 win32 x64
+node: 12.14.0
+v8: 7.7.299.13-node.16
+uv: 1.33.1
+zlib: 1.2.11
+brotli: 1.0.7
+ares: 1.15.0
+modules: 72
+nghttp2: 1.39.2
+napi: 5
+llhttp: 1.1.4
+http_parser: 2.8.0
+openssl: 1.1.1d
+cldr: 35.1
+icu: 64.2
+tz: 2019c
+unicode: 12.1</code></pre>
+</li>
+</ul>
+<h3 id="部署Hexo初始化博客"><a href="#部署Hexo初始化博客" class="headerlink" title="部署Hexo初始化博客"></a>部署Hexo初始化博客</h3><pre><code class="bash">Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ pwd
+/c/Users/ld269440877.github.io/HexoBlog</code></pre>
+<ul>
+<li>这里以HexoBlog为博客目录，执行下面命令<pre><code class="bash">Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ hexo init
+INFO  Cloning hexo-starter https://github.com/hexojs/hexo-starter.git
+Cloning into &#39;C:\Users\ld269440877.github.io\HexoBlog&#39;...
+remote: Enumerating objects: 30, done.
+...
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ ls
+_config.yml    package.json       scaffolds/  themes/
+node_modules/  package-lock.json  source/
+</code></pre>
+</li>
+</ul>
+<p>Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)<br>$ hexo server<br>INFO  Start processing<br>INFO  Hexo is running at <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> . Press Ctrl+C to stop.</p>
+<pre><code>
+- 测试本地建站是否成功，输入：
+在浏览器输入 &lt;127.0.0.1:4000&gt; 或者 &lt;http://localhost:4000/&gt;就可以访问到刚刚创建好的blog了。
+
+- 初始化博客以后，能看到下图：
+![](初始化博客以后能看到下图.png)
+
+### 配置git 管理/ld269440877.github.io仓库下的HexoBlog (master)
+```bash
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ echo &quot;# ld269440877.github.io&quot; &gt;&gt; README.md
+
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ git init
+Initialized empty Git repository in C:/Users/HexoBlog/.git/
+
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ git add .
+warning: LF will be replaced by CRLF in HexoBlog/package.json.
+The file will have its original line endings in your working directory.
+
+
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ git commit -m &quot;HexoBlog is fist committed &quot;
+[master dd5489e] HexoBlog is fist committed
+ 93 files changed, 9441 insertions(+)
+ create mode 100644 HexoBlog/.gitignore
+ create mode 100644 HexoBlog/_config.yml
+...
+
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ git remote add origin git@github.com:ld269440877/ld269440877.github.io.git
+
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 234 bytes | 234.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:ld269440877/ld269440877.github.io.git
+ * [new branch]      master -&gt; master
+Branch &#39;master&#39; set up to track remote branch &#39;master&#39; from &#39;origin&#39;.
+
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ ls
+_config.yml  node_modules/  package-lock.json  source/
+db.json      package.json   scaffolds/         themes/
+
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ pwd
+/c/Users/ld269440877.github.io/HexoBlog</code></pre><p><img src="gitbash%E5%B0%86%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E4%B8%8Egithub%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%BB%BA%E7%AB%8B%E5%85%B3%E8%81%94%E5%90%8Egithub%E4%BB%93%E5%BA%93%E5%A6%82%E5%9B%BE%E6%89%80%E7%A4%BA.png" alt="本地文件与github远程仓库建立关联后github仓库" title="本地文件与github远程仓库建立关联后github仓库"></p>
+<h3 id="换皮肤"><a href="#换皮肤" class="headerlink" title="换皮肤"></a>换皮肤</h3><p>在<a href="https://hexo.io/themes/" target="_blank" rel="noopener">官网</a> 可以查看各种各样的皮肤，挑选自己喜欢的皮肤<br>这里以 3-hexo 这款皮肤为例（这款皮肤是笔者写的，效果可查看 &lt;yelog.org&gt;）<br>1）进入皮肤的 github 官网，如<a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank" rel="noopener">3-hexo</a>的网址<br>找到 clone or download ,复制它的url：<a href="https://github.com/yelog/hexo-theme-3-hexo.git" target="_blank" rel="noopener">https://github.com/yelog/hexo-theme-3-hexo.git</a></p>
+<p>2）进入 /c/Users/ld269440877.github.io/HexoBlog 目录，打开 git bash 命令框，执行以下命令将皮肤下载到themes目录下<br><code>$ git clone https://github.com/yelog/hexo-theme-3-hexo.git themes/3-hexo</code><br>3) 修改 HexoBlog/_config.yml 中的 theme: landscape 为 theme: 3-hexo</p>
+<blockquote>
+<p>如果使用 3-hexo 主题的话，还需要注意两点<br>①因为主题使用了自己的高亮效果，还需要修改 highlight enable: true 的 true 改为 highlight enable: false。<br>②由于主题启用了文章字数统计功能，需要安装一个插件，在 HexoBlog 目录下，打开 git bash 命令框，执行 <code>npm i --save hexo-wordcount</code> 即可<br>4) 重新渲染，启动服务器</p>
+</blockquote>
+<pre><code class="bash">Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
+</code></pre>
+<p>5) 打开浏览器查看效果，换肤成功</p>
+<pre><code class="bash">Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog (master)
+$ hexo server
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.</code></pre>
+<p>6) 修改博客的连接和样式，编辑HexoBlog/themes/3-hexo (master)下的_config.yml</p>
+<pre><code class="bash">Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog/themes/3-hexo (master)
+$ pwd
+/c/Users/ld269440877.github.io/HexoBlog/themes/3-hexo
+
+Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog/themes/3-hexo (master)
+$ ls
+&#39;_config - 副本.yml&#39;   _config.yml   layout/   README.md   source/</code></pre>
+<h2 id="如何写文章"><a href="#如何写文章" class="headerlink" title="如何写文章"></a>如何写文章</h2><p>文章在 myblog/source/_posts/ 下，以markdown格式写成，笔者推荐使用atom作为写作工具。<br>可以通过 hexo new 文章名 来创建一篇文章，当然也可以直接在 _posts 目录下直接新建.md文件。</p>
+<pre><code class="bash">Administrator@DESKTOP-BQFQLO2 MINGW64 /c/Users/ld269440877.github.io/HexoBlog/source/_posts (master)
+$ pwd
+/c/Users/ld269440877.github.io/HexoBlog/source/_posts</code></pre>
+<p>执行命令 仍是在 myblog 目录下，打开 git bash 命令框。以下是常用命令，其他可以查阅官网。</p>
+<pre><code class="bash"># 创建一个标题为“git教程”的文章
+$ hexo new &quot;git教程&quot;
+
+# 清除所有渲染的页面
+$ hexo clean
+
+# 将markdown渲染成页面
+$ hexo g
+
+# 启动hexo
+$ hexo s</code></pre>
+<h2 id="发布到Githup"><a href="#发布到Githup" class="headerlink" title="发布到Githup"></a>发布到Githup</h2><p>(1) 复制SSH类型地址。<br>登录Github打开自己的项目 username.github.io、打开之后，点击SSH，选择SSH类型地址，并复制地址：<a href="mailto:git@github.com">git@github.com</a>:ld269440877/ld269440877.github.io.git<br>(2) 找到并打开站点配置文件文件。<br>打开你一开始创建的Hexo文件夹（如C:\Users\ld269440877.github.io\HexoBlog），用编辑器打开刚文件夹下的_config.yml文件<br>(3) 修改配置文件。<br>在配置文件里作如下修改，保存。<br><img src="%E5%8F%91%E5%B8%83%E5%88%B0github%E4%BF%AE%E6%94%B9HexoBlog%E4%B8%8B%E7%9A%84_config.yml%E6%96%87%E4%BB%B6.png" alt=""><br>(4) 执行发布相关的命令。<br>依次执行如下命令：</p>
+<pre><code class="bash">$ hexo clean (清除缓存)
+
+$ hexo generate(hexo g生成，每次修改本地文件后，需要才能保存)
+
+$ hexo server($ hexo s启动服务预览)
+# 注：(1) 执行第三条命令hexo s启动服务预览后，可刷新浏览器：localhost:4000 查看。
+$ hexo deploy($ hexo d部署)
+&#39;&#39;&#39;
+执行第四条命令hexo d部署时，若出现如下错误：ERROR Deployer not found: git
+，则执行命令行：$ npm install hexo-deployer-git --save；
+&#39;&#39;&#39;
+#若发布成功了，则gitbash显示：INFO Deploy done: git
+&quot;&quot;&quot;
+若还是不能解决，则先删除Hexo文件下的.deploy_git文件夹(如果没有这个文件夹，就忽略它)，
+然后执行：$ git config --global core.autocrlf false，然后重新执行上面四条命令即可。
+&quot;&quot;&quot;</code></pre>
+<blockquote>
+<p>每次文件有修改，都要相应执行这四条命令</p>
+<ul>
+<li>$ <code>hexo clean</code> (清除缓存)</li>
+<li>$ <code>hexo generate</code>(hexo g生成，每次修改本地文件后，需要才能保存)  </li>
+<li>$ <code>hexo server</code> ($ hexo s启动服务预览)  </li>
+<li>$ <code>hexo deploy</code>($ hexo d部署)  </li>
+</ul>
+</blockquote>
+<p>(5) 测试网站。<br> <a href="https://username" target="_blank" rel="noopener">https://username</a> .github.io/就是你的专属博客网址了。<br>打开网址<a href="https://username.githup.io/进行验证是否成功，我的是https://ld269440877.github.io/" target="_blank" rel="noopener">https://username.githup.io/进行验证是否成功，我的是https://ld269440877.github.io/</a></p>
+<p>(6）修改博客头像和微信支付宝付款二维码图片<br><img src="hexoblog头像.png" width = "100" height = "100" div align=center /><br><img src="支付宝付款二维码.png" width="100" height="100" div align=center><br><img src="微信付款二维码.png" width="100" height="100" div align=center></p>
+<ul>
+<li>HexoBlog的img路径：<ul>
+<li>C:\Users\ld269440877.github.io\img  #hexo 根目录</li>
+<li>C:\Users\ld269440877.github.io\HexoBlog\public\img<pre><code class="bash"># 每次文件有修改，都要相应执行这四条命令
+hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
+# 浏览器中查看网页博客
+http://localhost:4000</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<p>博客版面布局<br>C:\Users\ld269440877.github.io\HexoBlog\themes\3-hexo\layout_partial</p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 aa269440877@outlook.com </span>
@@ -362,12 +600,12 @@
 
 
 <div class="article_copyright">
-    <p><span class="copy-title">文章标题:</span>Hello World</p>
-    <p><span class="copy-title">文章字数:</span><span class="post-count">75</span></p>
+    <p><span class="copy-title">文章标题:</span>BlogNotebook</p>
+    <p><span class="copy-title">文章字数:</span><span class="post-count">2.5k</span></p>
     <p><span class="copy-title">本文作者:</span><a  title="Dillon Liang">Dillon Liang</a></p>
-    <p><span class="copy-title">发布时间:</span>2019-12-19, 14:24:56</p>
-    <p><span class="copy-title">最后更新:</span>2019-12-19, 14:24:56</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/12/19/hello-world/" title="Hello World">https://ld269440877.github.io/2019/12/19/hello-world/</a>
+    <p><span class="copy-title">发布时间:</span>2019-12-19, 19:45:43</p>
+    <p><span class="copy-title">最后更新:</span>2019-12-19, 19:25:43</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/12/19/BlogNotebook/" title="BlogNotebook">https://ld269440877.github.io/2019/12/19/BlogNotebook/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
     </p>
